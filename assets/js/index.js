@@ -16,3 +16,11 @@ function carousel() {
 function goTo(path){
   window.location.assign(path);
 }
+
+function showMenu(){
+  if (document.getElementById('phn-menu').classList.contains('hide2') === true){
+    document.getElementById('phn-menu').classList.remove('hide2');
+  }else{
+    document.getElementById('phn-menu').classList.add('hide2');
+  }
+}

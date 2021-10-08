@@ -97,12 +97,16 @@ h1,h2,h3,h4,h5,h6,p{
   }
   .menu-item{
     padding: 8px 10px;
-    margin: 5px 0px;
+    margin: 5px 1px;
     color: var(--no4);
     border-radius: 4px;
     cursor: pointer;
   }
   .menu-item:hover{
+    color: var(--no1);
+    background-color: rgba(0,0,0,0.5);
+  }
+  .menu-item-selected{
     color: var(--no1);
     background-color: rgba(0,0,0,0.5);
   }
@@ -160,6 +164,42 @@ h1,h2,h3,h4,h5,h6,p{
     display: block;
     margin: 0;
     padding: 5px 0px;
+  }
+  .paper{
+    padding: 10px;
+    margin: 10px 0px;
+    display: flex;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
+  }
+  .no{
+    font-size: 2.5rem;
+    font-weight: bold;
+    width: 120px;
+  }
+  .members{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+  }
+  .member{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .member img{
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px rgba(0,0,0,1);
+    margin-bottom: 10px;
   }
 
 

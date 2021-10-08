@@ -12,3 +12,7 @@ function carousel() {
   x[myIndex-1].style.display = "block";
   setTimeout(carousel, 2000); // Change image every 2 seconds
 }
+
+function goTo(path){
+  window.location.assign(path);
+}

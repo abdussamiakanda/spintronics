@@ -179,6 +179,7 @@ h1,h2,h3,h4,h5,h6,p{
     font-size: 2.5rem;
     font-weight: bold;
     width: 120px;
+    color: rgba(0,0,0,0.5);
   }
   .members{
     display: flex;
@@ -441,6 +442,7 @@ h1,h2,h3,h4,h5,h6,p{
   .no{
     font-size: 1.4rem;
     font-weight: bold;
+    color: rgba(0,0,0,0.5);
   }
   .members{
     display: flex;

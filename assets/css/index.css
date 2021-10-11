@@ -476,7 +476,15 @@ h1,h2,h3,h4,h5,h6,p{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 35px;
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  .socials i{
+    padding: 0px 5px;
+    color: green;
+  }
+  .socials i:hover{
+    color: blue;
   }
 
 
